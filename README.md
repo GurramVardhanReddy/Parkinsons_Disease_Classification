@@ -19,6 +19,66 @@ The project is sub-divided following section. These are:
 7.	Applying Different Learning Algorithms on the Training Dataset.
 8.	Applying the AUC and ROC Curves for the best three models.
 
+   **Procedure**
+Step 1: Finding out the null values.
+
+ 
+No null values present in the data.
+
+Step 2: Checking whether the data is balanced or imbalanced .
+ 
+Imbalanced Data
+
+Step 3: Deletion of unnecessary columns manually and assigning the features and target variables to x and y.
+ 
+Step 4: Plotting graphs for the data distribution and finding out the existence of outliers.
+ 
+Histplot
+
+ 
+Density graph 
+ 
+Distribution Graph
+
+ 
+Boxplot
+
+ 
+Pairplot
+ 
+
+Step 5: Converting the data from imbalanced to balanced using imblearn library involving Undersampling, Oversampling and Combination techniques.
+
+ 
+
+Step 6: Train Test Split and Resampling the imbalanced data into balanced data.
+ 
+
+RESULTS:
+Step 7: Predicting the accuracies using all the classification models and Resampling Techniques using imblearn.
+Models:  Logistic Regression, Decision Tree Classifier, Random Forest Classifier,
+Bagging Classifier, Support Vector Machine and Gaussian Naive Bayes.
+Resampling Techniques: 
+RandomOverSampler, RandomUnderSampler, SMOTE, ADASYN, TomekLinks, SMOTEENN, SMOTETomek.
+ 
+Using for loop and finding the accuracy score and classification report
+
+ 
+Classification Report
+Best accuracies found using Random Forest Classifier along with Tomek Links as an Under Sampling Technique with 97.43% accuracy.
+
+Step 8: AUC and ROC Curve
+AUC and ROC Curve is plotted for the best models with high accuracy score prediction.
+Those models are Bagging Classifier using SMOTE, Bagging Classifier using SMOTEENN, Random Forest Classifier using Random Over Sampler.
+ 
+AUC and ROC Curve
+ 
+AUC Scores
+
+
+**CONCLUSION:**
+In this study, we applied various machine learning algorithms to classify Parkinson's disease based on a dataset of vocal features and physiological measurements. The primary goal was to assess the effectiveness of these models in distinguishing between individuals with Parkinson's disease and healthy controls.
+
 
 
 
