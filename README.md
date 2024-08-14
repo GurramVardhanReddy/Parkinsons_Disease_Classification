@@ -55,3 +55,11 @@ seaborn
 
 These packages are commonly used for data analysis and machine learning.
 
+# Usage
+
+
+**Download the Dataset**: Obtain the Parkinson's disease dataset from the UCI Machine Learning Repository.
+
+**Run the Analysis**: Follow the steps in the project to explore the data, train the model, and evaluate its performance.
+
+**Review Results**: Check the model's accuracy and other performance metrics to understand how well it classifies Parkinson's disease.
