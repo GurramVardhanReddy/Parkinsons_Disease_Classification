@@ -35,9 +35,9 @@ PPE: A measure of vocal pressure
 **Installation**
 
 
-Install Jupyter Notebook : Make sure you have Python installed on your computer.
+1. Install Jupyter Notebook : Make sure you have Python installed on your computer.
 
-Install Required Packages: Install the necessary Python packages. You can do this using your preferred method (e.g., via Anaconda, or directly using pip). The key packages you might need are:
+2. Install Required Packages: Install the necessary Python packages. You can do this using your preferred method (e.g., via Anaconda, or directly using pip). The key packages you might need are:
 
 numpy
 
@@ -56,3 +56,4 @@ imblearn
 seaborn
 
 These packages are commonly used for data analysis and machine learning.
+
