@@ -7,7 +7,7 @@ This project focuses on the classification of Parkinson's disease (PD) using mac
 
 **Dataset:**
 
-The dataset used in this project is sourced from the UCI Machine Learning Repository. It contains vocal features extracted from audio recordings of patients with Parkinson's disease and healthy individuals. The dataset includes 22 features and a target variable status, where:
+The dataset used in this project is sourced from the UCI Machine Learning Repository. It contains vocal features extracted from audio recordings of patients with Parkinson's disease and healthy individuals. The dataset includes features and a target variable status, where:
 
 '1' indicates the presence of Parkinson's disease.
 '0' indicates a healthy control.
