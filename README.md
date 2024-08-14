@@ -8,6 +8,7 @@ The dataset used in this project is sourced from the UCI Machine Learning Reposi
 
 '1' indicates the presence of Parkinson's disease.
 '0' indicates a healthy control.
+
 **Some important Features:**
 MDVP
 (Hz): Average vocal fundamental frequency
