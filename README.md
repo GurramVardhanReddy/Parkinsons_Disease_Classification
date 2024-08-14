@@ -39,19 +39,17 @@ PPE: A measure of vocal pressure
 
 2. Install Required Packages: Install the necessary Python packages. You can do this using your preferred method (e.g., via Anaconda, or directly using pip). The key packages you might need are:
 
-**.**numpy
+numpy
 
-**.**pandas
+pandas
 
-**.**scikit-learn
+scikit-learn
 
-**.**matplotlib
+matplotlib
 
-**.**seaborn
+seaborn
 
-**.**imblearn
-
-
+imblearn
 
 seaborn
 
