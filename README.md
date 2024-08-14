@@ -4,12 +4,14 @@
 
 This project focuses on the classification of Parkinson's disease (PD) using machine learning techniques applied to a dataset of vocal features. Parkinson's disease is a neurodegenerative disorder that affects motor function, and early detection is crucial for effective management. By leveraging data-driven approaches, this project aims to build and evaluate models that can accurately distinguish between individuals with Parkinson's disease and healthy controls.
 
+
 **Dataset:**
 
 The dataset used in this project is sourced from the UCI Machine Learning Repository. It contains vocal features extracted from audio recordings of patients with Parkinson's disease and healthy individuals. The dataset includes 22 features and a target variable status, where:
 
 '1' indicates the presence of Parkinson's disease.
 '0' indicates a healthy control.
+
 
 **Some important Features:**
 
@@ -34,7 +36,6 @@ PPE: A measure of vocal pressure
 
 **Installation**
 
-
 Install Jupyter Notebook : Make sure you have Python installed on your computer.
 
 Install Required Packages: Install the necessary Python packages. You can do this using your preferred method (e.g., via Anaconda, or directly using pip). The key packages you might need are:
@@ -55,8 +56,8 @@ seaborn
 
 These packages are commonly used for data analysis and machine learning.
 
-**Usage**
 
+**Usage**
 
 **Download the Dataset**: Obtain the Parkinson's disease dataset from the UCI Machine Learning Repository.
 
@@ -64,6 +65,26 @@ These packages are commonly used for data analysis and machine learning.
 
 **Review Results**: Check the model's accuracy and other performance metrics to understand how well it classifies Parkinson's disease.
 
+
+**Procedure**
+
+1.Loading Necessary Libraries.
+
+2. Loading Dataset from a CSV File or from a Table.
+   
+3. Summarization of Data to Understand Dataset (Descriptive Statistics).
+   
+4. Visualization of Data to Understand Dataset (Plots, Graphs, etc.).
+ 
+5. Data Pre-processing Imbalanced Learn Techniques, Data Transformation,
+Cross Validation.
+
+6. Hyper parameter Tuning to Find the Optimal Parameters for the Classification
+Models.
+
+7. Applying Different Learning Algorithms on the Training Dataset.
+    
+8. Applying the AUC and ROC Curves for the best three models.
 
 
 **Results**
